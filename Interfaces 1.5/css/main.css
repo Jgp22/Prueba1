@@ -1,0 +1,169 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+	font-family: sans-serif, Times, Helvetica;
+	padding: 0px 15px;
+}
+
+a h1, a h4{
+	color: white;
+	text-decoration: none;
+}
+a h1:hover, a h4:hover{
+	color: white !important;
+	text-decoration: none;
+}
+
+.container-membrete{
+	position: relative;
+	padding: 0px 0px;
+}
+.container-logo-iut{
+	background-color: #3C8BD0;
+	text-align: center;
+}
+.container-logo-dep{
+	background-color: #3C8BD0;
+	text-align: center;
+}
+.container-nombre{
+	text-align: center;
+	background-color: #ffffff;
+}
+.container-barra{
+	position: relative;
+	background-color: #3C8BD0;
+	text-align: left;
+	margin: 0px -15px;
+}
+
+.modal-header, .modal-header>h4, .close {
+      background-color: #3C8BD0;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+
+.slide-size{
+	display: block;
+	border: 0;
+	position: relative;
+	width: initial;
+	margin: 0px -30px;
+}
+.carousel-control{
+	opacity:0.1;
+	margin-left: 1.2%;
+	margin-right: 1.2%;
+}
+.carousel-control:hover{
+	opacity:0.5;
+}
+
+.container-info{
+	position: relative;
+	background-color: #A1A1A1;
+	margin: 0px -15px;
+}
+.info-size{
+	position: relative;
+	text-align: center;
+}
+
+.container-enlace{
+	margin-top: 35%;
+	padding-top: 3%;
+	padding-bottom: 15%;
+	background-color: #A1A1A1;
+	text-align: center;
+}
+
+.zoom img{
+	height: 60px;
+	width: 60px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.zoom img:hover{
+	height: 100px;
+	width: 100px;
+}
+
+.footer{
+	text-align: center;
+	background-color: #3C8BD0;
+	color: #ffffff;
+	padding-top: 1%;
+	margin: 0px -15px;
+	padding: 0px 15px;
+}
+
+.border-right{
+    text-align: right;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.border-left{
+    text-align: left;
+    border-left: 1px solid rgba(255,255,255,0.1);
+}
+
+.border-top{
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.link{
+	text-decoration: none;
+	text-shadow: #ffffff;
+	color: #ffffff;
+}
+.link:hover{
+	color: #ffffff;
+	text-decoration: none;
+	color: #000000;
+}
+
+.form-registro{
+	padding: 4% 25%;
+}
+
+.form-olvidoClave{
+	padding: 5% 30%;
+}
+
+.form-mensajeOlvidoClave{
+	padding: 5% 10%;
+	text-align: center;
+}
+
+.mensajeOlvidoClave{
+	font-weight: normal;
+    line-height: 1;
+    color: #999;
+}
+
+.form-modificarClave {
+	padding: 5% 25%;
+	/*text-align: center;*/
+}
+
+#ingresar {
+	font-weight: normal;
+    line-height: 1;
+    color: #999;
+}
+#ingresar:hover {
+	color: #ffffff;
+	text-decoration: none;
+	color: #000000;
+}
